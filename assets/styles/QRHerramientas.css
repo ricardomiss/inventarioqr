@@ -1,0 +1,169 @@
+header {
+    margin-top: -100px;
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    display: flex;
+    background: #FFFFFF;
+    z-index: 100;
+    box-shadow: 0px 0px 8px 0px #424242;
+}
+
+header .container {
+    width: 15%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+header .container div {
+    margin: 0px auto;
+    height: 100%;
+    width: auto;
+    display: flex;
+    position: relative;
+}
+
+header .container div p {
+    margin-top: 18px;
+    margin-left: 8px;
+    font-size: 23px;
+    font-family: 'EB Garamond', serif;
+}
+
+header nav {
+    width: auto;
+    height: 100%;
+    margin-left: 18%;
+    position: relative;
+}
+
+header nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+header nav ul li, a {
+    margin-top: 4px;
+    color: #616161;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+}
+
+header nav ul li:hover,
+header nav ul li:hover a {
+    color: #183153;
+}
+
+/* Seccion principal */
+
+main {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+section {
+    height: auto;
+    width: 1000px;
+    display: flex;
+    position: relative;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 2px solid #BDBDBD;
+    transition: all .4s;
+    /* box-shadow: 0px 0px 10px 0px #BDBDBD; */
+}
+
+section:hover {
+    transform: scale(1.01);
+}
+
+section .container-text {
+    height: auto;
+    width: 100%;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+section .form {
+    height: auto;
+    width: 50%;
+    margin-left: 20px;
+    position: relative;
+}
+
+section .form label {
+    padding-left: 20px;
+}
+
+section .form input {
+    display: block;
+    width: 80%;
+    outline: none;
+    height: 30px;
+    margin: 13px 17px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+}
+
+.contenedor form button {
+    height: 40px;
+    width: 150px;
+    margin: 0px auto;
+    display: block;
+    position: relative
+    
+}
+
+section .form input:focus {
+    border: 2px solid #183153;
+}
+
+section .form .btn-QR {
+    border: 0;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    padding: 10px;
+    background: #183153;
+    color: #FFFFFF;
+}
+
+.qr_code {
+    border-radius: 7px;
+    background: #F5F5F5;
+    width: 50%;
+    display: block;
+    position: relative;
+    margin-left: 10px;
+}
+
+.qr_code img {
+    width: 200px;
+    display: block;
+    margin: 75px auto;
+}
+
+.qr_code button {
+    margin: auto;
+    display: block;
+    height: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    background: #183153;
+    border: 2px solid #183153;
+}

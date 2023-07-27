@@ -1,0 +1,138 @@
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #424242;
+}
+
+header nav {
+    width: auto;
+    height: 100%;
+    margin-left: 18%;
+    position: relative;
+}
+
+header nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+header nav ul li, a {
+    margin-top: 4px;
+    color: #616161;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+}
+
+header nav ul li:hover,
+header nav ul li:hover a {
+    color: #183153;
+}
+
+.container-father {
+    width: 100%;
+    height: 570px;
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-tool {
+    height: 100%;
+    width: 47%;
+    position: relative;
+    display: block;
+    border: 2px solid #616161;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.container-tool h2, .container-trabajador h2 {
+    text-align: center;
+}
+
+.containercards-tool, .containercard-trabajadores {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cardstool {
+    display: none;
+    border: 2px solid #424242;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 10px 0 #BDBDBD; 
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.cardstool ul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 17px;
+}
+
+.cardstool details summary {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.cardstool button {
+    width: 95%;
+    display: block;
+    margin: 0px auto;
+}
+
+.container-trabajador {
+    height: 100%;
+    width: 47%;
+    position: relative;
+    display: block;
+    border: 2px solid #616161;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.cardstrabajadores {
+    display: none;
+    border: 2px solid #424242;
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 10px 0 #BDBDBD; 
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.cardstrabajadores ul {
+    list-style: none;
+    margin-left: -40px;
+    font-size: 17px;
+}
+
+.cardstrabajadores button {
+    width: 100%;
+    display: block;
+    margin: 0px auto;
+}
+
+/* Listas de los trabajadores */
+
+.container-list {
+    border: 1px solid #BDBDBD;
+    width: 80%;
+    height: auto;
+    display: block;
+}
+

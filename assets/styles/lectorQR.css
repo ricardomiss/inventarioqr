@@ -1,0 +1,474 @@
+header {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 8px 0px #424242;
+}
+
+header nav {
+    width: auto;
+    height: 100%;
+    margin-left: 18%;
+    position: relative;
+}
+
+header nav ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+header nav ul li, a {
+    margin-top: 4px;
+    color: #616161;
+    font-size: 17px;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+}
+
+header nav ul li:hover,
+header nav ul li:hover a {
+    color: #183153;
+}
+
+/* Estilos principales */
+
+main { 
+    width: 100%;
+    height: 570px;
+    margin-top: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container-one {
+    width: 30%;
+    height: 550px;
+    border-radius: 10px;
+    margin-left: 20px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #BDBDBD;
+}
+
+.text-descripcion {
+    width: 100%;
+    text-align: center;
+    font-family: serif;
+}
+
+.text-descripcion h1 {
+    font-size: 20px;
+}
+
+.text-descripcion p{
+    color: #212121;
+    padding: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.portada-img {
+    width: 100%;
+    position: relative;
+    height: auto;
+}
+
+.portada-img img {
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.button-emergente {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.button-emergente button {
+    width: 180px;
+    height: 35px;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    background: #212121;
+}
+
+.container-two {
+    width: 65%;
+    height: 550px;
+    margin-left: 25px;
+    position: absolute;
+    border-radius: 10px;
+    display: inline-block;
+    border: 2px solid #BDBDBD;
+}
+
+.container-proceso {
+    width: 100%;
+    height: 540px;
+    position: relative;
+    display: block;
+    overflow: auto;
+}
+
+.container-proceso h2 {
+    text-align: center;
+    color: #424242;
+}
+
+/* Ventana Emergente */
+.popup {
+    background: #fff;
+    border: 2px solid #BDBDBD;
+    border-radius: 10px;
+    width: 1290px;
+    height: 600px;
+    position: fixed;
+    display: none;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    overflow-x: none;
+}
+
+.containerprincipal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+}
+
+.containerprincipalhijo {
+    height: auto;
+    width: 50%;
+    display: block;
+    position: relative;
+    border-right: 2px solid #BDBDBD;
+    border-radius: 10px 0px 0px 10px ;
+    background: #EEEEEE;
+}
+
+.containerprincipalhijo h1 {
+    color: #424242;
+    text-align: center;
+}
+
+.containerprincipalhijo video {
+    width: 70%;
+    display: block;
+    background-color: #212121;
+    border-radius: 20px;
+    margin: 20px auto;
+}
+
+.containerhijo2 {
+    height: auto;
+    width: 49%;
+    background: #fff;
+    position: relative;
+}
+
+.containervacio {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-top: 120px;
+    font-size: 10px;
+}
+
+.containervacio img {
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+
+.containerhijo2 h4 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.container-vacio2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    color: #212121;
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-vacio2 img {
+    display: block;
+    width: 240px;
+    margin: auto;
+}
+
+.container-padre {
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.container-Cerrar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: #EEEEEE;
+    display: block;
+    z-index: 100;
+}
+
+#buttonCerrar {
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 5px;
+    margin-left: 625px;
+    background: #fff;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.container-oneUL {
+    width: 95%;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+}
+
+ul li {
+    padding: 5px;
+    text-align: left;
+}
+
+.desplazamiento {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    display: block;
+}
+
+.container-oneUL p {
+    text-align: center;
+    color: #424242;
+    font-size: 20px;
+}
+
+.user-info {
+    width: 95%;
+    height: auto;
+    margin: 100px auto;
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    border: 2px solid #BDBDBD;
+}
+
+.container-procesoOne {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    color: #2F335C;
+}
+
+.container-trabajador {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    position: relative;
+}
+
+.qrTrabajadorOner {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.require-text {
+    width: 95%;
+    height: auto;
+    position: relative;
+    display: none;
+    margin: auto;
+}
+
+.require-text input {
+    border: 2px solid #BDBDBD;
+    border-radius: 5px;
+    height: 28px;
+    outline: none;
+    margin: 8px;
+    padding-left: 10px;
+}
+
+.require-text #buttoConfirmar {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    height: 35px;
+    width: 300px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #183153;
+    border: none;
+}
+
+.desplazamiento {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.require-text .modicar {
+    width: 300px;
+}
+
+.require-text input:focus {
+    border: 2PX solid #183153;
+}
+
+.qrHerramientasTwo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.containerblanco {
+    width: 100%;
+    height: 10px;
+    position: relative;
+    display: block;
+}
+
+.qrHerramientasTwo ul {
+    border: 2px solid #BDBDBD;
+    display: inline-block;
+    padding: 20px;
+    position: relative;i
+    border-radius: 10px;
+    list-style: none;
+}
+
+#buttondelete {
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    background: #B71C1C;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.containerSeguro {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+}
+
+#buttonSeguro {
+    background: #183153;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Prestamos en procesos */
+
+
+.container-cards {
+    height: auto;
+    width: 95%;
+    position: relative;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #BDBDBD;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.container-infUser {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.title-user, .container-id{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    border: 1px solid #BDBDBD;
+    justify-content: space-around;
+    background: #E0E0E0;
+}
+
+.title-user p {
+    font-size: 18px;
+}
+
+.container-infUser details {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    background: #EEEEEE;
+}
+
+.container-infUser details summary {
+   padding: 5px 0px 5px 10px;
+   font-size: 19px;
+}
+
+.container-infUser details article {
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    justify-content: space-around;
+}
+
+.container-infUser details article p {
+    border: 2px solid #BDBDBD;
+    padding: 8px;
+}
